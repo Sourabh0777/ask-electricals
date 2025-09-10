@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card";
 
 const products = [
   {
@@ -32,7 +32,7 @@ const products = [
   {
     title: "MANUFACTURING FACILITY",
     subtitle: "State-of-the-art production capabilities",
-    image: "/modern-motor-manufacturing-facility.png",
+    image: "/4.jpeg",
     category: "facility",
     features: ["Automated assembly lines", "Quality control labs", "Advanced testing equipment"],
   },
@@ -43,7 +43,7 @@ const products = [
     category: "quality",
     features: ["Automated test panels", "Statistical reporting", "Model-specific testing"],
   },
-]
+];
 
 export function ProductGrid() {
   return (
@@ -53,17 +53,12 @@ export function ProductGrid() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Product Range</h2>
             <div className="w-20 h-1 bg-red-600 mx-auto mb-4"></div>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Specialized motor solutions for air movement technologies across HVAC and home appliance sectors
-            </p>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Specialized motor solutions for air movement technologies across HVAC and home appliance sectors</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product, index) => (
-              <Card
-                key={index}
-                className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-0 shadow-lg"
-              >
+              <Card key={index} className="group hover:shadow-xl transition-all duration-300 cursor-pointer border-0 shadow-lg">
                 <CardContent className="p-0">
                   <div className="aspect-[4/3] bg-gray-50 rounded-t-lg overflow-hidden">
                     <img
@@ -111,18 +106,8 @@ export function ProductGrid() {
               <div className="text-center">
                 <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z"
-                    />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z" />
                   </svg>
                 </div>
                 <h4 className="font-semibold text-gray-900">Home Appliance OEMs</h4>
@@ -155,5 +140,5 @@ export function ProductGrid() {
         </div>
       </div>
     </section>
-  )
+  );
 }
