@@ -12,10 +12,10 @@ export function Footer() {
    //    title: "Downloads",
    //    links: ["Price Lists", "Technical Manuals", "Catalogues", "Certificates", "Sign Up for Newsletter"],
    //  },
-    {
-      title: "Support",
-      links: ["Customer Care", "Warranties", "Service Centers", "Feedback"],
-    },
+   //  {
+   //    title: "Support",
+   //    links: ["Customer Care", "Warranties", "Service Centers", "Feedback"],
+   //  },
   ];
 
   return (
@@ -54,9 +54,6 @@ export function Footer() {
               </a>
               <a href="#" className="text-sm text-muted-foreground hover:text-primary">
                 Terms of Service
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary">
-                Sitemap
               </a>
             </div>
           </div>
