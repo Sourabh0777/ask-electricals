@@ -46,7 +46,7 @@ export function HeroSection() {
             <div className="relative">
                <div className="bg-white rounded-3xl p-8 shadow-2xl">
                   <img
-                     src="/fan-cooler-motor.png"
+                     src="/factory.png"
                      alt="Ask Electricals Electrical Products"
                      className="w-full h-auto rounded-2xl"
                   />
