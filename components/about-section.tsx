@@ -25,7 +25,7 @@ export function AboutSection() {
             </div>
             <div className="relative">
               <img
-                src="/modern-motor-manufacturing-facility.png"
+                src="/3.jpeg"
                 alt="ASK Electricals Manufacturing Facility"
                 className="rounded-lg shadow-lg w-full"
               />
