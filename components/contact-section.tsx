@@ -10,7 +10,7 @@ export function ContactSection() {
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                      Contact Us
                   </h2>
-                  <div className="w-20 h-1 bg-red-600 mx-auto mb-4"></div>
+                  <div className="w-20 h-1 bg-blue-600 mx-auto mb-4"></div>
                   <p className="text-lg text-gray-600">
                      Get in touch with our team for motor solutions and
                      technical support
@@ -28,9 +28,9 @@ export function ContactSection() {
 
                            <div className="space-y-6">
                               <div className="flex items-start space-x-4">
-                                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                                     <svg
-                                       className="w-6 h-6 text-red-600"
+                                       className="w-6 h-6 text-blue-600"
                                        fill="none"
                                        stroke="currentColor"
                                        viewBox="0 0 24 24"
@@ -64,9 +64,9 @@ export function ContactSection() {
                               </div>
 
                               <div className="flex items-start space-x-4">
-                                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                                     <svg
-                                       className="w-6 h-6 text-red-600"
+                                       className="w-6 h-6 text-blue-600"
                                        fill="none"
                                        stroke="currentColor"
                                        viewBox="0 0 24 24"
@@ -90,9 +90,9 @@ export function ContactSection() {
                               </div>
 
                               <div className="flex items-start space-x-4">
-                                 <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                                     <svg
-                                       className="w-6 h-6 text-red-600"
+                                       className="w-6 h-6 text-blue-600"
                                        fill="none"
                                        stroke="currentColor"
                                        viewBox="0 0 24 24"
@@ -137,7 +137,7 @@ export function ContactSection() {
                            </div>
 
                            <div className="mt-6">
-                              <Button className="w-full bg-red-600 hover:bg-red-700">
+                              <Button className="w-full bg-blue-600 hover:bg-blue-700">
                                  Get Quote
                               </Button>
                            </div>
@@ -174,27 +174,27 @@ export function ContactSection() {
                                  <input
                                     type="text"
                                     placeholder="Your Name"
-                                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                  />
                                  <input
                                     type="email"
                                     placeholder="Your Email"
-                                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                  />
                               </div>
                               <input
                                  type="text"
                                  placeholder="Subject"
-                                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                               />
                               <textarea
                                  placeholder="Your Message"
                                  rows={4}
-                                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none"
+                                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
                               ></textarea>
                               <Button
                                  type="submit"
-                                 className="w-full bg-red-600 hover:bg-red-700"
+                                 className="w-full bg-blue-600 hover:bg-blue-700"
                               >
                                  Send Message
                               </Button>

@@ -7,7 +7,7 @@ export function AboutSection() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About ASK Electricals</h2>
-            <div className="w-20 h-1 bg-red-600 mx-auto"></div>
+            <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
@@ -36,14 +36,14 @@ export function AboutSection() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
-            <Card className="border-l-4 border-l-red-600">
+            <Card className="border-l-4 border-l-blue-600">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Our Vision</h3>
                 <p className="text-gray-700">To become a leading provider of advanced motor solutions that empower cooling and ventilation systems worldwide.</p>
               </CardContent>
             </Card>
 
-            <Card className="border-l-4 border-l-red-600">
+            <Card className="border-l-4 border-l-blue-600">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Our Mission</h3>
                 <ul className="text-gray-700 space-y-2">
@@ -60,8 +60,8 @@ export function AboutSection() {
             <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Why Choose ASK Electricals?</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -75,8 +75,8 @@ export function AboutSection() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -91,8 +91,8 @@ export function AboutSection() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -101,8 +101,8 @@ export function AboutSection() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -116,8 +116,8 @@ export function AboutSection() {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
