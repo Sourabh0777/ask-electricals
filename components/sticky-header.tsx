@@ -35,7 +35,7 @@ export function StickyHeader() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-primary font-bold text-xl">ASK Electricals</div>
+              <img src="/logo_ASK.png" alt="ASK Electricals Logo" className="h-15 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
